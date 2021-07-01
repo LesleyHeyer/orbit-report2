@@ -12,4 +12,15 @@ export class Satellite {
         this.orbitType = orbitType;
         this.operational = operational;
     }
+
+    shouldShowWarning(){
+
+        let spaceDebris: string = "Space Debris";
+           if (this.type === spaceDebris.toLocaleLowerCase()){
+              return true;
+           } else {
+              return false;
+           }
+        
+      }
 }

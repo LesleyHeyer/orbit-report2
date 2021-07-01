@@ -26,14 +26,6 @@ export class AppComponent {
        }.bind(this));
     }.bind(this));
  
- }
-
-   //  shouldShowWarning(){
-   //    if ( == ){
-   //       return true;
-   //    } else {
-   //       return false;
-   //    }
-   //  }
+ } 
  
 }
