@@ -15,9 +15,11 @@ export class Satellite {
 
     shouldShowWarning(){
 
-        let spaceDebris: string = "Space Debris";
-           if (this.type === spaceDebris.toLocaleLowerCase()){
-              return true;
+        let spaceDebris: string = "space debris";
+
+           if (this.type.toLowerCase() === spaceDebris){
+            return true;
+
            } else {
               return false;
            }

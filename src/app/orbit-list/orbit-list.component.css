@@ -27,6 +27,7 @@ th, td {
     padding: 6px;
 }
 
-.warning-style {
-    background: red;
+.warning {
+    background-color: rgb(206, 103, 103);
+    color: black;
 }
