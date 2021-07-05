@@ -15,14 +15,6 @@ export class Satellite {
 
     shouldShowWarning(){
 
-        let spaceDebris: string = "space debris";
-
-           if (this.type.toLowerCase() === spaceDebris){
-            return true;
-
-           } else {
-              return false;
-           }
-        
-      }
+       return this.type.toLowerCase() === "space debris";
+    }
 }
